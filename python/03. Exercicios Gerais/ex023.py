@@ -1,0 +1,6 @@
+numero = int(input('Digite um número: '))
+print('Analisando o número', numero)
+print('Unidade:', numero % 10)
+print('Dezena:', numero // 10 % 10)
+print('Centena:', numero // 100 % 10)
+print('Milhar:', numero // 1000 % 10)    
