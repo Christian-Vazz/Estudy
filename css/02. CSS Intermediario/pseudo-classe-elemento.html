@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classe e Pseudo-elemento</title>
+
+    <style>
+        /* Pseudo-classes */
+        
+        a, a:link{
+            text-decoration: none;
+            padding: 10px;
+            color: green;
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        a:hover{
+            background-color: green;
+            color: white;
+        }
+
+        a:active{
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        Conteúdo da DIV
+    </div>
+
+    <h2>Conteúdo do H2</h2>
+    
+    <a href="https://google.com" target="_blank">Google</a> |
+    <a href="https://facbosasdfxcok.com" target="_blank">Não Acessado</a> |
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+
+    <h2>Formulário</h2>
+    <input type="checkbox"> aceito <br>
+    <input type="radio" name="opcao"> Sim <br>
+    <input type="radio" name="opcao"> Não <br>
+    <input type="text" required placeholder="Digite seu Nome">
+</body>
+</html>
