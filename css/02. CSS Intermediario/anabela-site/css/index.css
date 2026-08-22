@@ -1,0 +1,46 @@
+body {
+    background-image: url(../imgs/fundo.png);
+}
+
+h1 {
+    margin: 0;
+    color: #92927a;
+}
+
+img {
+    width: 100%;
+}
+
+div.container {
+    width: 650px; 
+    margin: 0 auto;
+}
+
+div.navegacao {
+    background-color: #bdbdaa;
+    padding: 20px;
+}
+
+div.conteudo {
+    background-color: #E5E4D4;
+    padding: 10px;
+}
+
+div.conteudo > img {
+    width: 70%;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(76, 76, 153, 0.879);
+    font-weight: 900;
+}
+
+div.rodape {
+    text-align: center;
+    font-weight: 900;
+}
+
+span {
+    font-weight: 900;
+}
